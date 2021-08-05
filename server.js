@@ -14,7 +14,7 @@ router.use(express.static(__dirname + '/public'))
 const server = router.listen(port)
 
 process.on('unhandledRejection', (reason, p) =>
-  concole.error('Unhandled Rejection at: Promise ', p, reason)
+  console.error('Unhandled Rejection at: Promise ', p, reason)
 )
 
 server.on('listening', () =>
