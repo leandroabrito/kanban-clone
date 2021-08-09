@@ -11,7 +11,7 @@ const TaskSchema = new Schema({
 
   column_id: {
     type: mongoose.ObjectId,
-    required: true
+    // required: true
   },
 
   checked: {
@@ -19,7 +19,7 @@ const TaskSchema = new Schema({
     default: false
   },
 
-  text: {
+  description: {
     type: String,
     required: true
   }

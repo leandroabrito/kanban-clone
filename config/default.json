@@ -1,8 +1,12 @@
 {
     "port": 3000,
-    "mongodb": "mongodb://localhost:27017/api",
+    "x-mongodb": "mongodb://localhost:27017/api",
+    "mongodb": "",
     "mongoOptions" : {
         "useUnifiedTopology": true,
         "useNewUrlParser": true
     }
 }
+
+
+
